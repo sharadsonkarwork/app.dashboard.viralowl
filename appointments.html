@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Viral Owl</title>
+  <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+
+  <header class="main-header">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" title="Home" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="specialist" href="#">specialist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="blog" href="#">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="contact" href="#">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" title="forum" href="#">forum</a>
+          </li>
+      </div>
+      <div class="dropdown ml-auto profile-dropdown">
+        <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <figure><img src="images/david.png" alt=""></figure><span> David</span>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">My Account</a>
+          <a class="dropdown-item" href="#">My Disputes</a>
+          <a class="dropdown-item" href="#">FAQ's</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Logout</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="dashboard-cell">
+    <div class="d-tabs">
+      <ul class="tab-list">
+        <li><a href="#" class="active" title="Dashboard">Dashboard</a></li>
+        <li><a href="#" title="Profile">Profile</a></li>
+      </ul>
+      <div class="d-content-main">
+        <div class="d-sidebar">
+          <div class="overlay-sidebar"></div>
+          <ul>
+            <li><a href="#" class="active" title="Dashboard">
+                <figure><img src="images/dashboard.png" alt=""></figure>
+                <span> Dashboard</span>
+              </a></li>
+            <li><a href="#" title="Schedule Availability">
+                <figure><img src="images/schedule.png" alt=""></figure>
+                <span> Schedule Availability</span>
+              </a></li>
+            <li><a href="#" title="File manager">
+                <figure><img src="images/file-manager.png" alt=""></figure>
+                <span> File manager</span>
+              </a></li>
+            <li><a href="#" title="Open Despute">
+                <figure><img src="images/open-dispute.png" alt=""></figure>
+                <span> Open Despute</span>
+              </a></li>
+            <li><a href="#" title="Users manager">
+                <figure><img src="images/users.png" alt=""></figure>
+                <span> Users manager</span>
+              </a></li>
+            <li><a href="#" title="Tradeview">
+                <figure><img src="images/tradeview.png" alt=""></figure>
+                <span> Tradeview</span>
+              </a></li>
+            <li><a href="#" title="Messages">
+                <figure><img src="images/messages.png" alt=""></figure>
+                <span> Messages <span class="message-count">8</span></span>
+              </a></li>
+            <li><a href="#" title="Payments">
+                <figure><img src="images/payments.png" alt=""></figure>
+                <span> Payments</span>
+              </a></li>
+            <li class="d-logout"><a href="#" title="Logout">
+                <figure><img src="images/loguot.png" alt=""></figure>
+                <span> Logout</span>
+              </a></li>
+          </ul>
+        </div>
+
+        <div class="dashboard-main">
+          <div class="row">
+            <div class="col-lg-12">
+              <a href="javascript:void(0)" title="" class="open-sidebar"><img src="images/sidebar.png" alt="">
+                Sidebar</a>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="appointment-box" style="background: #FF007C;">
+                <figure class="text-center"><img src="images/new-appointments.png" alt=""></figure>
+                <h3>40 <span>New Appointments</span></h3>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+              <div class="appointment-box" style="background: #7D00B5;">
+                <figure class="text-center"><img src="images/total-appointments.png" alt=""></figure>
+                <h3>6K <span>Total Appoiintments</span></h3>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-12 col-md-12">
+              <div class="upcoming-events-main">
+                <h3 class="d-inline-block">Upcoming</h3>
+                <select class="meeting-day float-right">
+                  <option value="Today">Today</option>
+                  <option value="Tommorow">Tommorow</option>
+                  <option value="Tuesday">Tuesday</option>
+                </select>
+                <ul class="listing">
+                  <li>
+                    <figure style="background: #39D5CF;"><img src="images/calander.png" alt=""></figure>
+                    <div class="text">
+                      <h3>Team meeting</h3>
+                      <p>10 AM - 11 AM</p>
+                    </div>
+                  </li>
+                  <li>
+                    <figure style="background: #FF007C;"><img src="images/calander.png" alt=""></figure>
+                    <div class="text">
+                      <h3>Team meeting</h3>
+                      <p>11 AM - 12 AM</p>
+                    </div>
+                  </li>
+                  <li>
+                    <figure style="background: #7D00B5;"><img src="images/calander.png" alt=""></figure>
+                    <div class="text">
+                      <h3>Meet with client</h3>
+                      <p>2 PM - 3 PM</p>
+                    </div>
+                  </li>
+                </ul>
+                <div class="text-right">
+                  <a href="#" title="" class="upcoming-btn"><img src="images/arrow.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="appointment-status text-center" style="background: #BD11FA;">
+                <img src="images/download.png" alt="">
+                <h3>500</h3>
+                <p>This year</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="appointment-status text-center" style="background: #7D00B5;">
+                <img src="images/download.png" alt="">
+                <h3>200</h3>
+                <p>Past Month</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="appointment-status text-center" style="background: #2D62ED;">
+                <img src="images/download.png" alt="">
+                <h3>60</h3>
+                <p>Canceled Appointments</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="appointment-table payment-table table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>User ID</th>
+                  <th>Country</th>
+                  <th>Meeting ID</th>
+                  <th>Date Time</th>
+                  <th>Mode</th>
+                  <th>payment</th>
+                  <th></th>
+                </tr>
+                </tdead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="d-flex user-check">
+                      <label class="custom-check"><input type="checkbox" name="transaction"><span
+                          class="checker"></span></label>
+                      <figure><img src="images/francesca.png" alt=""></figure>
+                      <span>Francesca Metts</span>
+                    </div>
+                  </td>
+                  <td><img src="images/usa.png" alt=""> USA</td>
+                  <td>501D67</td>
+                  <td>12-07-2020 12:30 PM</td>
+                  <td>
+                    <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                        alt=""></figure>
+                  </td>
+                  <td>2235.440</td>
+                  <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <td>
+                  <div class="d-flex user-check">
+                    <label class="custom-check"><input type="checkbox" name="transaction"><span
+                        class="checker"></span></label>
+                    <figure><img src="images/francesca.png" alt=""></figure>
+                    <span>Francesca Metts</span>
+                  </div>
+                </td>
+                <td><img src="images/usa.png" alt=""> USA</td>
+                <td>501D67</td>
+                <td>12-07-2020 12:30 PM</td>
+                <td>
+                  <figure class="appointment-mode"><img src="images/video.png" alt=""></figure>
+                </td>
+                <td>2235.440</td>
+                <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex user-check">
+                      <label class="custom-check"><input type="checkbox" name="transaction"><span
+                          class="checker"></span></label>
+                      <figure><img src="images/francesca.png" alt=""></figure>
+                      <span>Francesca Metts</span>
+                    </div>
+                  </td>
+                  <td><img src="images/usa.png" alt=""> USA</td>
+                  <td>501D67</td>
+                  <td>12-07-2020 12:30 PM</td>
+                  <td>
+                    <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                        alt=""></figure>
+                  </td>
+                  <td>2235.440</td>
+                  <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <td>
+                  <div class="d-flex user-check">
+                    <label class="custom-check"><input type="checkbox" name="transaction"><span
+                        class="checker"></span></label>
+                    <figure><img src="images/francesca.png" alt=""></figure>
+                    <span>Francesca Metts</span>
+                  </div>
+                </td>
+                <td><img src="images/usa.png" alt=""> USA</td>
+                <td>501D67</td>
+                <td>12-07-2020 12:30 PM</td>
+                <td>
+                  <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                      alt=""></figure>
+                </td>
+                <td>2235.440</td>
+                <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex user-check">
+                      <label class="custom-check"><input type="checkbox" name="transaction"><span
+                          class="checker"></span></label>
+                      <figure><img src="images/francesca.png" alt=""></figure>
+                      <span>Francesca Metts</span>
+                    </div>
+                  </td>
+                  <td><img src="images/usa.png" alt=""> USA</td>
+                  <td>501D67</td>
+                  <td>12-07-2020 12:30 PM</td>
+                  <td>
+                    <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                        alt=""></figure>
+                  </td>
+                  <td>2235.440</td>
+                  <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <td>
+                  <div class="d-flex user-check">
+                    <label class="custom-check"><input type="checkbox" name="transaction"><span
+                        class="checker"></span></label>
+                    <figure><img src="images/francesca.png" alt=""></figure>
+                    <span>Francesca Metts</span>
+                  </div>
+                </td>
+                <td><img src="images/usa.png" alt=""> USA</td>
+                <td>501D67</td>
+                <td>12-07-2020 12:30 PM</td>
+                <td>
+                  <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                      alt=""></figure>
+                </td>
+                <td>2235.440</td>
+                <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex user-check">
+                      <label class="custom-check"><input type="checkbox" name="transaction"><span
+                          class="checker"></span></label>
+                      <figure><img src="images/francesca.png" alt=""></figure>
+                      <span>Francesca Metts</span>
+                    </div>
+                  </td>
+                  <td><img src="images/usa.png" alt=""> USA</td>
+                  <td>501D67</td>
+                  <td>12-07-2020 12:30 PM</td>
+                  <td>
+                    <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                        alt=""></figure>
+                  </td>
+                  <td>2235.440</td>
+                  <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <td>
+                  <div class="d-flex user-check">
+                    <label class="custom-check"><input type="checkbox" name="transaction"><span
+                        class="checker"></span></label>
+                    <figure><img src="images/francesca.png" alt=""></figure>
+                    <span>Francesca Metts</span>
+                  </div>
+                </td>
+                <td><img src="images/usa.png" alt=""> USA</td>
+                <td>501D67</td>
+                <td>12-07-2020 12:30 PM</td>
+                <td>
+                  <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                      alt=""></figure>
+                </td>
+                <td>2235.440</td>
+                <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="d-flex user-check">
+                      <label class="custom-check"><input type="checkbox" name="transaction"><span
+                          class="checker"></span></label>
+                      <figure><img src="images/francesca.png" alt=""></figure>
+                      <span>Francesca Metts</span>
+                    </div>
+                  </td>
+                  <td><img src="images/usa.png" alt=""> USA</td>
+                  <td>501D67</td>
+                  <td>12-07-2020 12:30 PM</td>
+                  <td>
+                    <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                        alt=""></figure>
+                  </td>
+                  <td>2235.440</td>
+                  <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+                <td>
+                  <div class="d-flex user-check">
+                    <label class="custom-check"><input type="checkbox" name="transaction"><span
+                        class="checker"></span></label>
+                    <figure><img src="images/francesca.png" alt=""></figure>
+                    <span>Francesca Metts</span>
+                  </div>
+                </td>
+                <td><img src="images/usa.png" alt=""> USA</td>
+                <td>501D67</td>
+                <td>12-07-2020 12:30 PM</td>
+                <td>
+                  <figure class="appointment-mode"><img src="images/phone.png" alt=""><img src="images/message.png"
+                      alt=""></figure>
+                </td>
+                <td>2235.440</td>
+                <td class="text-right"><a href="#" title="Details" class="detail-btn">Update</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="row">
+      <div class="col-sm-5">
+        <figure class="f-logo"><img src="images/logo.png" alt=""></figure>
+      </div>
+      <div class="col-sm-2">
+        <h3 class="f-heading">Connect with us</h3>
+        <ul class="social-links">
+          <li><a href="#" title="Facebook"><img src="images/facebook.png" alt=""></a></li>
+          <li><a href="#" title="Twitter"><img src="images/twitter.png" alt=""></a></li>
+          <li><a href="#" title="Instagram"><img src="images/instagram.png" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-2">
+        <h3 class="f-heading">Connect with us</h3>
+        <div class="f-links">
+          <a href="#" title="home">home</a>
+          <a href="#" title="Event">Event</a>
+          <a href="#" title="About Us">About Us</a>
+          <a href="#" title="Contact">Contact</a>
+          <a href="#" title="FAQ">FAQ</a>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <h3 class="f-heading">About Us</h3>
+        <p class="about-test">You begin with a text, you sculpt information, you chisel away what's not needed, you come
+          to the point, make things clear, add value, you're a content person, you like words. </p>
+      </div>
+      <div class="col-sm-12 text-center">
+        <p class="copyright-text">© All Rights Reserved| Designed By Team Viralowl</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(".open-sidebar").click(function () {
+      $(".d-sidebar").addClass("toggle-sidebar");
+    });
+    $(".overlay-sidebar").click(function () {
+      $(".d-sidebar").removeClass("toggle-sidebar");
+    });
+  </script>
+</body>
+
+</html>
